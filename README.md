@@ -24,8 +24,8 @@ Atta
 - swift
 
 #### フレームワーク・ライブラリ・モジュール
--　Ruby on rails  
--　MySQL
+- Ruby on rails  
+- MySQL
 
 #### デバイス
 - iPhone
