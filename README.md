@@ -1,4 +1,4 @@
-[200~# Atta
+Atta
 ![ロゴ](P2HACKS.png)
 
 ## 製品概要
