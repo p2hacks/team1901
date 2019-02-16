@@ -1,0 +1,12 @@
+---
+- name: Install mysql
+  import_tasks: install_mysql.yml
+
+- name: Install mysql lib
+  import_tasks: install_lib.yml
+
+- name: Set my.cnf
+  import_tasks: set_mycnf.yml
+
+- name: Install sqlite3
+  import_tasks: install_sqlite3.yml

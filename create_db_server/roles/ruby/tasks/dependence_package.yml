@@ -1,0 +1,7 @@
+---
+- name: Install dependence package
+  apt:
+    name: ['nodejs', 'libcurl4-openssl-dev', 'apache2-dev', 'libapr1-dev', 'libaprutil1-dev', 'libxml2', 'libxslt-dev', 'build-essential', 'patch']
+    state: present
+    update_cache: yes
+

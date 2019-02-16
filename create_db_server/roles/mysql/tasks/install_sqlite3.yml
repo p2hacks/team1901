@@ -1,0 +1,7 @@
+---
+- name: Install sqlite3
+  apt:
+    name: ['sqlite3', 'libsqlite3-dev']
+    state: present
+    update_cache: yes
+
