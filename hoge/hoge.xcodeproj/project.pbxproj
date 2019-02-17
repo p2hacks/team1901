@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9C91E4422218645C0043CD94 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C91E4412218645C0043CD94 /* ListViewController.swift */; };
+		9CBA3D9B2218DC42001AA53C /* tito.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBA3D9A2218DC42001AA53C /* tito.swift */; };
 		E2D8507822172ACB0089604B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D8507722172ACB0089604B /* AppDelegate.swift */; };
 		E2D8507A22172ACB0089604B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D8507922172ACB0089604B /* HomeViewController.swift */; };
 		E2D8507D22172ACB0089604B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D8507B22172ACB0089604B /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		155AA93650E94B28B00E3934 /* Pods-hoge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hoge.release.xcconfig"; path = "Target Support Files/Pods-hoge/Pods-hoge.release.xcconfig"; sourceTree = "<group>"; };
 		4A200D25A907A33B00EBA883 /* Pods-hogeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hogeUITests.release.xcconfig"; path = "Target Support Files/Pods-hogeUITests/Pods-hogeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9C91E4412218645C0043CD94 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		9CBA3D9A2218DC42001AA53C /* tito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tito.swift; sourceTree = "<group>"; };
 		D850304F4E9F43EDC74A1F1A /* Pods-hoge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hoge.debug.xcconfig"; path = "Target Support Files/Pods-hoge/Pods-hoge.debug.xcconfig"; sourceTree = "<group>"; };
 		E2D8507422172ACB0089604B /* hoge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hoge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D8507722172ACB0089604B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				E2D8507E22172ACD0089604B /* Assets.xcassets */,
 				E2D8508022172ACD0089604B /* LaunchScreen.storyboard */,
 				E2D8508322172ACD0089604B /* Info.plist */,
+				9CBA3D9A2218DC42001AA53C /* tito.swift */,
 			);
 			path = hoge;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2D8507A22172ACB0089604B /* HomeViewController.swift in Sources */,
+				9CBA3D9B2218DC42001AA53C /* tito.swift in Sources */,
 				E2D8507822172ACB0089604B /* AppDelegate.swift in Sources */,
 				9C91E4422218645C0043CD94 /* ListViewController.swift in Sources */,
 			);

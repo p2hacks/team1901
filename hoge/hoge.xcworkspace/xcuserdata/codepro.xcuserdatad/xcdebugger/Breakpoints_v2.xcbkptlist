@@ -10,13 +10,76 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "hoge/ListViewController.swift"
-            timestampString = "572049033.5702159"
+            timestampString = "572065432.930832"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "move_pages(_:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "hoge/ListViewController.swift"
+            timestampString = "572065432.932426"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ListViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hoge.ListViewController.name.getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "hoge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/codepro/Desktop/p2hacks/team1901/hoge/hoge/ListViewController.swift"
+                  timestampString = "572062545.900305"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hoge.ListViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; hoge.ListViewController"
+                  moduleName = "hoge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/codepro/Desktop/p2hacks/team1901/hoge/hoge/ListViewController.swift"
+                  timestampString = "572062545.903505"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "191">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hoge.ListViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;hoge.ListViewController&gt;"
+                  moduleName = "hoge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/codepro/Desktop/p2hacks/team1901/hoge/hoge/ListViewController.swift"
+                  timestampString = "572062545.906778"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "148">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

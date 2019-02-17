@@ -8,8 +8,26 @@
 
 import UIKit
 
-class ListViewController: UIViewController {
+class ListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
     
+    var idnumber = ["ID:1","ID:2","ID:3"]
+    var name = ["田中太郎", "山田花子","鈴木二郎"]
+    var gender  = ["男","女","男"]
+    var hobby = ["読書","散歩","野球"]
+    var from = ["函館","札幌","青森"]
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return idnumber.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell: UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "hogehoge", for: indexPath)
+        cell.textLabel?.text = "\(idnumber[indexPath.row]) \(name[indexPath.row])"
+        
+        return cell
+    }
+    
+    @IBOutlet weak var tableView: UITableView!
     /*
     // ヘッダー
     @IBOutlet weak var header_Label: UILabel!
@@ -23,11 +41,17 @@ class ListViewController: UIViewController {
     @IBOutlet weak var move_button: UIButton!
     */
     
+    // ラベル
+    let lavel_alpha = Nums()
+    @IBOutlet weak var label1: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        tableView.delegate = self
+        tableView.dataSource = self
     }
     
     @IBAction func move_pages(_ sender: Any) {
@@ -51,6 +75,15 @@ class ListViewController: UIViewController {
                                                         style: UIAlertAction.Style.default,
                                                         handler:{
                                                             (action:UIAlertAction!) -> Void in
+                                                            //保存場所
+                                                            //idnumber, nameの先頭に追加
+                                                            self.idnumber.append("ID:6")
+                                                            self.name.append("鈴木三郎")
+                                                            self.gender.append("男")
+                                                            self.hobby.append("野球")
+                                                            self.from.append("旭川")
+                                                            
+                                                            self.tableView.reloadData()
         })
         popalert.addAction(cancelAction)
         popalert.addAction(defaultAction)
