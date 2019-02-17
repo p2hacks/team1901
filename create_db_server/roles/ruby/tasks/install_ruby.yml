@@ -1,0 +1,18 @@
+---
+- apt: pkg=python-apt
+
+- name: Add ruby ppa
+  apt_repository:
+    repo: ppa:brightbox/ruby-ng
+
+- name: Install ruby
+  apt:
+    name: 'ruby{{ ruby_ver }}'
+    state: present
+    update_cache: yes
+
+- name: Install ruby liblary
+  apt:
+    name: 'ruby{{ ruby_ver }}-dev'
+    state: present
+    update_cache: yes

@@ -1,0 +1,6 @@
+---
+- name: Install MySQL liblary
+  apt:
+    name: libmysqlclient-dev
+    state: present
+    update_cache: yes

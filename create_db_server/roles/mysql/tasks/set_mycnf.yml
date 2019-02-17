@@ -1,0 +1,6 @@
+---
+- name: Placed my.cnf
+  file:
+    path: etc/mysql/my.cnf
+    dest: /etc/mysql/my.cnf
+    mode: 0755

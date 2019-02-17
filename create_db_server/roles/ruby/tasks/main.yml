@@ -1,0 +1,6 @@
+---
+- name: Install ruby
+  import_tasks: install_ruby.yml
+
+- name: Install dependence packages
+  import_tasks: dependence_package.yml
